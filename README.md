@@ -1,6 +1,6 @@
 # Accurate structure prediction of cyclic peptides containing
 
-（1）Head to tail
+# （1）Head to tail
 ![image](https://github.com/user-attachments/assets/c5a5b51d-c112-45d7-819b-f3d405f3ced8)
 
 unnatural amino acids using HighFold3 
@@ -19,8 +19,9 @@ db_dir=af3_db_path
 
 --head_to_tail
 
-（2）Disulfide bond
-![image](https://github.com/user-attachments/assets/1991c471-746e-41c4-91a2-7e3b9f125acf)
+
+# （2）Disulfide bond
+![image](https://github.com/user-attachments/assets/54279e6b-a362-4d42-873c-b147939889a7)
 
 # Usage
 
