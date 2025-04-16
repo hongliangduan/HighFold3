@@ -1,5 +1,5 @@
-Accurate structure prediction of cyclic peptides containing
-
+**Accurate structure prediction of cyclic peptides containing
+**
 ![image](https://github.com/user-attachments/assets/c5a5b51d-c112-45d7-819b-f3d405f3ced8)
 
 unnatural amino acids using HighFold3 
