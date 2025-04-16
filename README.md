@@ -11,6 +11,7 @@ HighFold3 is an enhanced model developed on the basis of AlphaFold 3, designed t
 When predicting cyclic peptide–protein complexes, the model explicitly divides the input distance matrix into two components: a linear positional encoding matrix for the target protein and a CycPOEM for the cyclic peptide ligand. This design enables the model to flexibly accommodate diverse conformational requirements and accurately model the binding of cyclic peptide ligands to protein receptors.
 
 ## Usage
+python run_alphafold_HF3.py 
 
 db_dir=af3_db_path
 
@@ -26,6 +27,7 @@ db_dir=af3_db_path
 ![image](https://github.com/user-attachments/assets/54279e6b-a362-4d42-873c-b147939889a7)
 
 ## Usage
+python run_alphafold_HF3.py 
 
 db_dir=af3_db_path
 
