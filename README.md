@@ -1,5 +1,6 @@
 # Accurate structure prediction of cyclic peptides containing
 
+（1）Head to tail
 ![image](https://github.com/user-attachments/assets/c5a5b51d-c112-45d7-819b-f3d405f3ced8)
 
 unnatural amino acids using HighFold3 
@@ -18,7 +19,23 @@ db_dir=af3_db_path
 
 --head_to_tail
 
+（2）Disulfide bond
+![image](https://github.com/user-attachments/assets/1991c471-746e-41c4-91a2-7e3b9f125acf)
+
+# Usage
+
+db_dir=af3_db_path
+
+--model_dir=models_path
+
+--json_path=json_path
+
+--output_dir=output_path
+
+--head_to_tail=0 # Non-head to tail
+
 --disulfide_chain_res [[1,3,11]]
+
 
 # Description
 The parameter head_to_tail indicates whether the head and tail form a ring, a boolean type.
