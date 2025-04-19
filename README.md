@@ -1,7 +1,7 @@
 # Accurate structure prediction of cyclic peptides containing
 
 ## 1. Install
-You can first install the Conda version of AlphaFold3 by following the tutorial (https://github.com/pyDock/AlphaFold3-Conda-Install). Then, copy the source code of HighFold3 into the already installed ColabFold project, with the core position matrix code located in the /model directory.
+You can first install the Conda version of AlphaFold3 by following the tutorial (https://github.com/pyDock/AlphaFold3-Conda-Install). Then, copy the source code of HighFold3 into the already installed AlphaFold3 project, with the core position matrix code located in the /model directory.
 
 ## 2. Head to tail
 ![image](https://github.com/user-attachments/assets/c5a5b51d-c112-45d7-819b-f3d405f3ced8)
