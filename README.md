@@ -28,6 +28,5 @@ db_dir=af3_db_path
 
 **Description :**
 1.	The parameter head_to_tail indicates whether the head and tail form a ring, a boolean type.
-2.	
-3.	The parameter disulfide_chain_res specifies the chain and positions where disulfide bonds are located.
+2.	The parameter disulfide_chain_res specifies the chain and positions where disulfide bonds are located.
 
