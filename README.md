@@ -12,14 +12,22 @@ When predicting cyclic peptide–protein complexes, the model explicitly divides
 Refer to the conda version of AlphaFold3 installation, and replace the feature files.
 
 **Usage :**
+
 db_dir=af3_db_path
+
 --model_dir=models_path
+
 --json_path=json_path
+
 --output_dir=output_path
+
 --head_to_tail
+
 --disulfide_chain_res [[1,3,11]]
+
 
 **Description :**
 1.	The parameter head_to_tail indicates whether the head and tail form a ring, a boolean type.
-2.	The parameter disulfide_chain_res specifies the chain and positions where disulfide bonds are located.
+2.	
+3.	The parameter disulfide_chain_res specifies the chain and positions where disulfide bonds are located.
 
