@@ -7,7 +7,8 @@ When predicting cyclic peptide–protein complexes, the model explicitly divides
 
 <img width="864" height="605" alt="image" src="https://github.com/user-attachments/assets/bef5e705-4215-45e8-9cce-884e2baba0c7" />
 
-**Model Architecture and Innovations**
+**Model Architecture and Innovations:**
+
 HighFold3 is built upon the AlphaFold 3 framework, which is renowned for its accuracy in biomolecular structure prediction. The model introduces two key innovations:
 
 Cyclic Position Offset Encoding Matrix (CycPOEM): This matrix adjusts positional encoding to account for the closed-loop structure of cyclic peptides, ensuring accurate representation of their topology.
@@ -19,6 +20,7 @@ The architecture includes two sub-models: HighFold3-Linear for linear peptides a
 Refer to the conda version of AlphaFold3 installation, and replace the feature files by highfold3/model.
 
 **Usage :**
+
 db_dir=af3_db_path
 
 --model_dir=models_path
@@ -33,6 +35,7 @@ db_dir=af3_db_path
 
 
 **Description :**
+
 1.	The parameter head_to_tail indicates whether the head and tail form a ring, a boolean type.
 2.	The parameter disulfide_chain_res specifies the chain and positions where disulfide bonds are located.
 
